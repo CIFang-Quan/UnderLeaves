@@ -331,4 +331,4 @@ int main() {
     close(sock);
     return 0;
 }
-//gcc `pkg-config --cflags gtk+-3.0` myclient.c `pkg-config --libs gtk+-3.0` -lpthread -o myclient
+//gcc `pkg-config --cflags gtk+-3.0` client.c `pkg-config --libs gtk+-3.0` -lpthread -o client
