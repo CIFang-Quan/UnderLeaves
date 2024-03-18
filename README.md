@@ -51,11 +51,11 @@ GTK3 must be installed and configured prior to use.Of course, you can also use G
 ## 4. Compile and Execute
 ### 4.1. server
 ```
-gcc myserver.c -l mysqlclient -lpthread -o myserver
+gcc server.c -l mysqlclient -lpthread -o server
 ```
 
 ### 4.2. client
 ```
-gcc `pkg-config --cflags gtk+-3.0` myclient.c `pkg-config --libs gtk+-3.0` -lpthread -o myclient
+gcc `pkg-config --cflags gtk+-3.0` client.c `pkg-config --libs gtk+-3.0` -lpthread -o client
 ```
 -Note: The server must be executed before the client！
