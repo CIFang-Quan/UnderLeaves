@@ -1326,4 +1326,4 @@ int main()
     return 0;
 }
 
-//gcc myserver.c -l mysqlclient -lpthread -o myserver
+//gcc server.c -l mysqlclient -lpthread -o server
